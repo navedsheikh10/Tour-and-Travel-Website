@@ -1,0 +1,30 @@
+
+.thumbs-wrapper, .carousel-status {
+    display: none;
+}
+ .carousel {
+     width: 20rem;
+} 
+.carousel img {
+  
+    height: 80vh;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    .carousel img{
+        margin-top: 25rem;
+    }
+   
+    
+}
+@media screen and (max-width: 412px) {
+    .carousel img{
+        margin-top: 100rem;
+    }
+    .carousel img {
+  
+        height: 50vh;
+    }
+   
+    
+}
